@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-dataframe = pd.read_csv(r'C:\Users\HP\OneDrive\Desktop\Deep Project 1\Housing Data.csv') #importing data   DATA MUST BE CLEANED SO MAKE SURE NO NA VALUES EXIST IN THERE
+dataframe = pd.read_csv(r'C:\Users\HP\OneDrive\Desktop\Deep Project 1\Housing Data.csv') #importing data   
 data = dataframe.values
 X, y = data[:, :-1], data[:, -1]          #splitting data
 print(X.shape, y.shape)
