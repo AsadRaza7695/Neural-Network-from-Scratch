@@ -146,4 +146,5 @@ plt.plot(range(0,152),n1.Loss)
 plt.xlabel("Inputs")
 plt.ylabel("Loss")
 plt.title("Testing Graph")
-plt.show()
+#plt.show()
+ #testing for git
